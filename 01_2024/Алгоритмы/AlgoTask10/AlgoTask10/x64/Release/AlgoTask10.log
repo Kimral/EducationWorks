@@ -1,0 +1,43 @@
+﻿  AlgoTask10.cpp
+D:\Projects\AlgoTask10\sorting_algoritms.hpp(22,30): warning C4267: =: преобразование из "size_t" в "_Ty"; возможна потеря данных
+D:\Projects\AlgoTask10\sorting_algoritms.hpp(22,30): warning C4267:         with
+D:\Projects\AlgoTask10\sorting_algoritms.hpp(22,30): warning C4267:         [
+D:\Projects\AlgoTask10\sorting_algoritms.hpp(22,30): warning C4267:             _Ty=std::seed_seq::result_type
+D:\Projects\AlgoTask10\sorting_algoritms.hpp(22,30): warning C4267:         ]
+  (компиляция исходного файла "AlgoTask10.cpp")
+  
+D:\Projects\AlgoTask10\sorting_algoritms.hpp(64,11): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+  (компиляция исходного файла "AlgoTask10.cpp")
+  
+D:\Projects\AlgoTask10\AlgoTask10.hpp(48,27): warning C4018: <: несоответствие типов со знаком и без знака
+  (компиляция исходного файла "AlgoTask10.cpp")
+  
+D:\Apps\VS2022\Community\VC\Tools\MSVC\14.39.33519\include\numeric(35,26): warning C4244: =: преобразование "double" в "_Ty", возможна потеря данных
+D:\Apps\VS2022\Community\VC\Tools\MSVC\14.39.33519\include\numeric(35,26): warning C4244:         with
+D:\Apps\VS2022\Community\VC\Tools\MSVC\14.39.33519\include\numeric(35,26): warning C4244:         [
+D:\Apps\VS2022\Community\VC\Tools\MSVC\14.39.33519\include\numeric(35,26): warning C4244:             _Ty=int
+D:\Apps\VS2022\Community\VC\Tools\MSVC\14.39.33519\include\numeric(35,26): warning C4244:         ]
+  (компиляция исходного файла "AlgoTask10.cpp")
+  D:\Apps\VS2022\Community\VC\Tools\MSVC\14.39.33519\include\numeric(35,26):
+  контекст создания экземпляра шаблона (сначала самый старый)
+  	D:\Projects\AlgoTask10\Tests.hpp(39,24):
+  	выполняется компиляция ссылки на экземпляр шаблон функции "_Ty std::accumulate<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<double>>>,int>(const _InIt,const _InIt,_Ty)"
+          with
+          [
+              _Ty=int,
+              _InIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<double>>>
+          ]
+  	D:\Apps\VS2022\Community\VC\Tools\MSVC\14.39.33519\include\numeric(46,17):
+  	выполняется компиляция ссылки на экземпляр шаблон функции "_Ty std::accumulate<_InIt,_Ty,std::plus<void>>(const _InIt,const _InIt,_Ty,_Fn)"
+          with
+          [
+              _Ty=int,
+              _InIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<double>>>,
+              _Fn=std::plus<void>
+          ]
+  
+  Создание кода
+  Previous IPDB not found, fall back to full compilation.
+  All 361 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Создание кода завершено
+  AlgoTask10.vcxproj -> D:\Projects\AlgoTask10\x64\Release\AlgoTask10.exe
